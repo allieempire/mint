@@ -1,0 +1,39 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+
+li {
+	display: inline-block;
+}
+
+/* HEADER */
+
+header {
+	text-align: center;
+	margin-top: 5em;
+}
+
+#header-links {
+	display: inline-block;
+}
+
+.header-links {
+	color: #333;
+	padding: 0 .8em;
+}
+
+#sign-up {
+	font-weight: bold;
+}
+
+#log-in {
+	border-left: 1px solid #7D7F80;
+}
