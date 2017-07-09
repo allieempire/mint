@@ -1,4 +1,4 @@
-/* BODY */
+/* PAGE */
 
 * {
 	-webkit-box-sizing: border-box;
@@ -24,20 +24,10 @@ body {
 
 /* HEADER */
 
-header {
-	/*text-align: center;*/
-	/*margin-top: 5em;*/
-	border: 1px solid red;
-}
-
-#mint-logo {
-	/*float: left;*/
-}
-
 #header-links {
 	display: inline-block;
-	/*float: right;*/
-	border: 1px solid red;
+	float: right;
+	margin-top: 1.35em;
 }
 
 .header-links {
