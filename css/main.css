@@ -1,3 +1,5 @@
+/* BODY */
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -14,20 +16,33 @@ li {
 	display: inline-block;
 }
 
+body {
+	margin: 10em auto;
+	max-width: 50%;
+
+}
+
 /* HEADER */
 
 header {
-	text-align: center;
-	margin-top: 5em;
+	/*text-align: center;*/
+	/*margin-top: 5em;*/
+	border: 1px solid red;
+}
+
+#mint-logo {
+	/*float: left;*/
 }
 
 #header-links {
 	display: inline-block;
+	/*float: right;*/
+	border: 1px solid red;
 }
 
 .header-links {
 	color: #333;
-	padding: 0 .8em;
+	padding: 0 .7em;
 }
 
 #sign-up {
