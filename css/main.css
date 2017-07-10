@@ -4,7 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	color: #333;
+	color: #555;
 }
 
 *, a, label {
@@ -18,7 +18,7 @@ a {
 
 body {
 	margin: 10em auto;
-	max-width: 55%;
+	max-width: 56%;
 }
 
 /* HEADER */
@@ -53,8 +53,8 @@ label, .input-box, button, #tel-span, #form-span {
 
 #main-container {
 	margin-top: .8em;
-	height: 50em;
-	border: 1px solid #d8d8d8;
+	height: 43em;
+	box-shadow: 1px 3px 8px rgba(0,0,0,.2);
 }
 
 #form-heading {
@@ -84,9 +84,25 @@ label {
 	color: #444;
 }
 
+#rem {
+	font-family: arial, sans-serif;
+	font-size: .85em;
+	padding-left: .5em;
+	display: inline-block;
+}
+
+button {
+	padding: .5em 1.75em;
+	color: white;
+	background: #45CAE6;
+	border: 1px solid #45CAE6;
+	border-radius: 3px;
+}
+
 #form-span {
 	font-size: .8em;
 	color: #7D7F80;
+	margin-top: 1em;
 }
 
 .form-links {
@@ -95,7 +111,7 @@ label {
 
 #sidebar {
 	margin-top: 2.5em;
-	padding: 0 0 5em 2em;
+	padding: 0 0 25em 2em;
 	float: right;
 	width: 32%;
 	border-left: 1px solid #d8d8d8;
