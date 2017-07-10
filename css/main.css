@@ -18,7 +18,7 @@ a {
 
 body {
 	margin: 10em auto;
-	max-width: 56%;
+	max-width: 800px;
 }
 
 /* HEADER */
@@ -76,7 +76,7 @@ label {
 	width: 24em;
 	height: 2.5em;
 	border: 1px solid #d8d8d8;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 #tel-span {
@@ -126,4 +126,41 @@ button {
 #sidebar-link {
 	color: #666666;
 	text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	margin-top: 5em;
+}
+
+.footer-li {
+	display: inline-block;
+}
+
+.footer-links {
+	color: #a5a5a5;
+	border-right: 1px solid #d8d8d8;
+	padding: 0 1.5em;
+	font-size: .85em;
+}
+
+.footer-links:hover {
+	text-decoration: underline;
+}
+
+.about {
+	border: none;
+}
+
+#footer-span, #copywrite {
+	display: block;
+	color: #a5a5a5;
+	font-size: .8em;
+	margin: 2.5em 0;
+}
+
+.footer-span {
+	color: #45CAE6;
 }
